@@ -1,0 +1,21 @@
+title: My Blog
+description: A classic Jekyll blog
+theme: minima
+
+# Minima options
+minima:
+  date_format: "%b %-d, %Y"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 5
+
+# Navigation
+header_pages:
+  - about.md
+  - categories.md
+  - tags.md
